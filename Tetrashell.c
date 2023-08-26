@@ -1,4 +1,3 @@
-// I, Evan Menendez (730477174), pledge that I have neither given nor received unauthorized aid on this assignment.
 #include"tetris.h"
 #include<stdio.h>
 #include<stdio.h>
@@ -183,7 +182,6 @@ int main(int argc, char* argv[]){
 	 		printf("Previous changes undone.\n");		
 		}
 
-		//This is pretty-rank! This was byfar the hardest thing I (evan) worked on while doing this assignment and therefore, I will not be explaining how it works because of all the pain and suffering it has caused me. 
 		else if(strcmp(argv1[0], "rank") == 0){ 
 			if(argv1[1] == NULL){
                                 argv1[1] = "score";
